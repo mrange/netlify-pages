@@ -1,2 +1,8 @@
 [build]
   publish = "site"
+
+[[headers]]
+  for = "*.html.br"
+  [headers.values]
+    Content-Type = "text/html; charset=UTF-8"
+    Content-Encoding = "br"
